@@ -1,0 +1,1461 @@
+@font-face {
+    font-family: 'iranyekanbold';
+    font-style: normal;
+    font-weight: bold;
+    src: url("fonts/iranYekan/492984b8.woff");
+}
+
+@font-face {
+    font-family: 'bbadr';
+    font-style: normal;
+    font-weight: bold;
+    src: url("fonts/bbadr/BBadr.woff");
+}
+
+@font-face {
+    font-family: 'light';
+    font-style: normal;
+    font-weight: bold;
+    src: url("fonts/iranYekan/a80f71ff.woff2");
+}
+
+@keyframes fadeInUpBig {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+.fadeInUpBig {
+    -webkit-animation-name: fadeInUpBig;
+    animation-name: fadeInUpBig;
+    animation-iteration-count: 1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.tak-menu-1a{
+    animation-delay: 0.5s;
+}
+
+.tak-menu-2a{
+    animation-delay: 0.7s;
+}
+
+.tak-menu-3a{
+    animation-delay: 0.9s;
+}
+
+.tak-menu-4a{
+    animation-delay: 1.1s;
+}
+
+.tak-menu-5a{
+    animation-delay: 1.3s;
+}
+
+.tak-menu-6a{
+    animation-delay: 1.5s;
+}
+
+.tak-menu-7a{
+    animation-delay: 1.7s;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+}
+
+a {
+    text-decoration: none;
+}
+
+article {
+    padding: 75px 0;
+}
+.f3f3f3{
+    background-color: #f7f7f7;
+}
+.f5f5f5{
+    background-color: #f3f3f3;
+}
+.tak-padding{
+    padding: 5px;
+}
+.tak-padding-ghovato-zaf{
+    padding-left: 15px;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: #f5af31;
+}
+
+::selection {
+    color: #fff;
+    background: #f5af31;
+}
+/*****************************/
+/*progress all*/
+.progress-container {
+    width: 100%;
+    direction: ltr;
+    position: fixed;
+    height: 8px;
+    z-index: 901;
+}
+
+.progress-bar {
+    height: 4px;
+    background-image: linear-gradient(#C38209 0%, #F9D38A 35%, #f5af31 100%);
+    border-radius: 10px;
+    width: 0%;
+}
+/*//progress all*/
+/*header*/
+.header-alaki {
+    width: 100%;
+    height: 70px;
+}
+
+.tak-header-wide {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 5px 40px -33px #000;
+    background-color: rgba(250,250,250,0.9);
+    z-index: 900;
+}
+
+.tak-header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tak-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tak-menu-line {
+    width: 30px;
+    height: 3px;
+    background-color: #313131;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    transition: 0.1s;
+}
+
+.t2-line{
+    position: relative;
+    background-color: transparent!important;
+}
+
+.t1-line-ab , .t2-line-ab {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #eee;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.tak-logo-vs-name {
+    height: 100%;
+    color: #313131;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 18px;
+}
+
+.tak-logo {
+    height: 70%;
+    padding-right: 20px;
+}
+
+/*//header*/
+/*menu*/
+.tak-menu-div{
+    width: 100%;
+    height: 100%;
+    z-index: 800;
+    top: calc(-100% + 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.tak-menu-a{
+    font-family: iranyekanbold;
+    font-size: 18px;
+    color: #313131;
+    padding-bottom: 18px;
+    opacity: 0;
+    scroll-behavior: smooth;
+}
+/*//menu*/
+/*scroll behavior*/
+.tak-scroll-behavior {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 40px -12px #000;
+    background-color: rgba(250,250,250,0.8);
+    scroll-behavior: smooth;
+    z-index: 500;
+}
+
+.tak-scroller-arrow {
+    transform: rotate(270deg);
+    width: 50%;
+}
+
+/*//scroll behavior*/
+
+/*article one*/
+.tak-article-one {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-one-text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    font-family: light;
+    font-size: 20px;
+    color: #313131;
+}
+
+.article-one-img{
+    width: 100%;
+}
+
+/*//article one*/
+/*article two*/
+.article-two {
+    width: 100%;
+}
+
+.article-two-texts{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-two-textss{
+    width: 100%;
+    padding: 40px 20px 10px 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-two-top{
+    width: 100%;
+    height: 100%;
+}
+
+.tak-box-style{
+    border-radius: 20px;
+    box-shadow: 0 5px 40px -30px #000;
+    font-family: light;
+    color: #313131;
+}
+
+.article-two-top-right-ul{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    background-color: #313131;
+    padding: 25px;
+    color: #fff;
+}
+.article-two-top-right-ul li{
+    padding: 5px 0;
+}
+
+.article-two-top-right-strong{
+    font-family: iranyekanbold;
+    font-size: 18px;
+    color: #f5af31;
+}
+
+.article-two-top-left-inner{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 40px -30px #000;
+    font-family: light;
+    color: #313131;
+}
+
+.tak-article-two-top-progress-and-name {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.tak-article-two-top-progress-and-name:last-child {
+    margin-bottom: 0;
+}
+
+.tak-article-two-top-left-skill-name-darsad {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    padding: 0 20px;
+    font-family: iranyekanbold;
+    font-size: 13px;
+}
+
+.tak-article-two-top-left-progress-bar {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    direction: ltr;
+    background-color: #e4e4e4;
+    border-radius: 50px;
+}
+
+.tak-article-two-top-left-progress-bar::-webkit-progress-value {
+    background: #f5af31;
+}
+
+.tak-article-two-top-left-progress-bar::-moz-progress-bar {
+    background: transparent;
+}
+
+.tak-article-two-top-left-progress-bar::-webkit-progress-value {
+    background: #f5af31;
+}
+
+.tak-article-two-top-left-progress-bar::-webkit-progress-bar {
+    background: transparent;
+}
+
+.article-two-intj-persons-img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.article-two-intj-person-img{
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 5px 40px -30px #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.tak-person-like-me-img{
+    height: 50%;
+    border-radius: 50%;
+}
+
+.tak-person-like-me-name{
+    font-family: iranyekanbold;
+    color: #313131;
+    font-size: 16px;
+}
+
+.tak-person-like-me-nameng{
+    color: #717171;
+    font-size: 12px;
+}
+
+.tak-person-like-me-skill{
+    font-family: light;
+    color: #818181;
+    font-size: 12px;
+}
+
+.article-two-bottom{
+    width: 100%;
+    height: 100%;
+}
+
+.article-two-bottom-right-inner{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 5px 40px -30px #000;
+}
+
+.tak-article-two-zafo-ghovat{
+    width: 100%;
+    padding: 25px;
+    margin: 0;
+    list-style: none;
+    font-family: light;
+}
+
+.tak-article-two-zafo-ghovat li{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.tak-article-two-zafo-ghovat-moraba{
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: #f5af31;
+}
+
+.tak-article-two-zafo-zaf-moraba{
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: #313131;
+}
+
+.article-two-bottom-left-inner{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 5px 40px -30px #000;
+}
+
+.tak-darbare-man {
+    color: #313131;
+    font-family: iranyekanbold;
+    font-size: 23px;
+    padding-bottom: 10px !important;
+}
+
+.tak-hr-span {
+    color: #f5af31;
+    padding-bottom: 30px;
+}
+
+.tak-darbare-man-hr {
+    height: 3px !important;
+    margin: 0;
+    border-radius: 10px;
+    width: 70px;
+    opacity: 1;
+}
+
+.tak-darbare-man-description {
+    font-family: light;
+    line-height: 28px;
+    font-size: 15px;
+    padding-bottom: 30px;
+    color: #313131;
+}
+
+.tak-darbare-man-button-span {
+    display: flex;
+    align-items: center;
+    font-family: light;
+    font-size: 15px;
+}
+
+.tak-darbare-man-button-right {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #f5af31;
+    border-radius: 5px;
+}
+
+.tak-darbare-man-button-left {
+    padding: 7px 20px;
+    color: #f5af31;
+    border: 2px solid #f5af31;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/*//article two*/
+/*article three*/
+.article-three {
+    width: 100%;
+}
+
+.article-three-inner {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*.tak-padding-khadamat{*/
+/*    padding: 10px;*/
+/*}*/
+
+.tak-khadamat-box-span {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tak-khadamat-box{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: 5px solid #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.tak-khadamat-box-logo-and-name{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.tak-khadamat-box-logo{
+    width: 35px;
+    height: auto;
+}
+
+.tak-khadamat-box-name{
+    padding-right: 15px;
+    font-family: iranyekanbold;
+    font-size: 18px;
+    color: #313131;
+}
+
+.tak-khadamat-box-description{
+    width: 100%;
+    padding: 20px 0;
+    font-family: light;
+    font-size: 15px;
+    color: #717171;
+    line-height: 25px;
+}
+/*//article three*/
+/*article three half*/
+.article-Three-half-padding {
+    width: 100%;
+    height: calc(100% - 200px);
+    padding: 50px 0;
+}
+
+.article-Three-half {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: auto;
+    padding: 5px 0;
+    padding-bottom: 10px;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+}
+
+.article-Three-half::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.article-Three-half {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.article-three-half-inner {
+    width: 1820px;
+    height: auto;
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.article-Three-half-box {
+    width: 250px;
+    height: 200px;
+    margin: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.article-Three-half-box-img {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    opacity: 1;
+    position: absolute;
+}
+
+.article-Three-half-box-img-efect {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    background-color: rgba(10, 10, 10, 0.7);
+    transition: 0.3s;
+    backdrop-filter: blur(5px);
+}
+
+.article-Three-half-box-img-efect-text {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    color: transparent;
+    font-family: iranyekanbold;
+    transition: 0.3s;
+}
+
+.article-Three-half-box:hover .article-Three-half-box-img, .article-Three-half-box:hover .article-Three-half-box-img-efect {
+    width: 90%;
+    height: 90%;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.article-Three-half-box:hover .article-Three-half-box-img-efect-text {
+    color: #fff;
+    transition: 0.3s;
+}
+
+/*//article three half*/
+/*article four*/
+.article-four {
+    width: 100%;
+}
+
+.article-four-inner {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tak-div-nav-for-nemonekar {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.tak-ul-nav-for-nemonekar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    list-style: none;
+    font-family: iranyekanbold;
+    font-size: 17px;
+    color: #fff;
+}
+
+.tak-li-nav-for-nemonekar {
+    padding-left: 40px;
+    line-height: 50px;
+}
+
+.tak-nemonekar-span {
+    width: 100%;
+    display: flex;
+}
+
+.tak-nemonekar-span > span > div {
+    margin-bottom: 15px;
+}
+
+.tak-nemonekar-right {
+    padding-left: 15px;
+}
+
+.tak-nemonekar-boxright-one {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.tak-nemonekar-center {
+    padding: 0 5px;
+}
+
+.tak-nemonekar-boxcenter-one {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.tak-nemonekar-img {
+    width: 100%;
+    height: 100%;
+}
+
+.tak-nemonekar-left {
+    padding-right: 15px;
+}
+
+.tak-nemonekar-boxleft-one {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.tak-nemonekar-div-all {
+    width: 100%;
+    height: 190px;
+    background-color: #fff;
+    overflow: hidden;
+}
+/******************************************/
+.accordion {
+    font-family: iranyekanbold;
+    color: #313131!important;
+}
+.accordion-tabs {
+    display: none;
+}
+.accordion-tabs :focus {
+    outline: none;
+}
+.accordion-item {
+    border-bottom: 1px solid #e4e4e4;
+}
+.accordion-item:last-child {
+    border: none;
+}
+.accordion-item__label {
+    margin: 0;
+    padding: 1.25rem;
+    cursor: pointer;
+    transition: padding 0.2s ease;
+    position: relative;
+}
+.accordion-item__label:after {
+    height: 4px;
+    width: 4px;
+    position: absolute;
+    top: -4px;
+    right: 1.25rem;
+    bottom: 0;
+    margin: auto;
+    border: 3px solid transparent;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    border-color: transparent #447fff #447fff transparent;
+    opacity: 1;
+    transition: opacity 0.1s ease;
+}
+.accordion-item__label:hover {
+    background: #d3e1ff;
+}
+.accordion-item__container {
+    padding: 0 1.25em;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: padding 0.2s ease, opacity 0.5s 0.15s ease;
+}
+.accordion-active {
+    background: #f3f3f3;
+}
+.accordion-active .accordion-item__label {
+    padding-bottom: 0;
+    cursor: inherit;
+}
+.accordion-active .accordion-item__label:hover {
+    background: none;
+}
+.accordion-active .accordion-item__label:after {
+    opacity: 0;
+}
+.accordion-active .accordion-item__container {
+    padding: 1.25em;
+    height: auto;
+    opacity: 1;
+}
+.accordion-active .accordion-item__container p:first-child,
+.accordion-active .accordion-item__container h1:first-child,
+.accordion-active .accordion-item__container h2:first-child,
+.accordion-active .accordion-item__container h3:first-child,
+.accordion-active .accordion-item__container h4:first-child,
+.accordion-active .accordion-item__container h5:first-child,
+.accordion-active .accordion-item__container h6:first-child {
+    margin-top: 0;
+}
+.accordion-active .accordion-item__container p:last-child,
+.accordion-active .accordion-item__container h1:last-child,
+.accordion-active .accordion-item__container h2:last-child,
+.accordion-active .accordion-item__container h3:last-child,
+.accordion-active .accordion-item__container h4:last-child,
+.accordion-active .accordion-item__container h5:last-child,
+.accordion-active .accordion-item__container h6:last-child {
+    margin-bottom: 0;
+}
+
+@media (min-width: 600px) {
+    .accordion-tabs {
+        display: flex;
+        background: rgba(68, 127, 255, 0.1);
+    }
+    .accordion-tabs .accordion-tab {
+        padding: 1rem 2rem;
+        background-color: #e7e7e7;
+        font: inherit;
+        flex: 1;
+        border: none;
+        cursor: pointer;
+        transition: background 0.1s ease;
+    }
+    .accordion-tabs .accordion-tab:hover {
+        background: rgb(245 175 49);
+    }
+    .accordion-tabs .accordion-tab:last-child {
+        border-right: 0;
+    }
+    .accordion-tabs .accordion-tab.accordion-active {
+        background: #f3f3f3;
+        color: #313131;
+    }
+
+    .accordion-item {
+        padding: 2.4rem;
+        display: none;
+        border: none;
+        min-height: 260px;
+    }
+    .accordion-item__label, .accordion-item__container {
+        padding: 0;
+        transition: inherit;
+    }
+    .accordion-item__label {
+        margin-bottom: 1.5rem;
+    }
+    .accordion-item.accordion-active {
+        display: block;
+    }
+    .accordion-item.accordion-active .accordion-item__container {
+        padding: 0;
+    }
+}
+
+.accordion {
+    box-shadow: 0 5px 40px -33px #000;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+.accordion + p {
+    color: #313131;
+    font-weight: 300;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+/*//article four*/
+/*article five*/
+.article-five {
+    width: 100%;
+}
+
+.article-five-inner {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tak-chart-gerd{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tak-chart-gerd-right{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 5px 40px -33px #000;
+    padding: 50px;
+}
+
+.tak-chart-gerd-left{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 5px 40px -33px #000;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tak-chart{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 5px 40px -33px #000;
+    padding: 50px;
+}
+
+.tak-div-progress-flex-all {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tak-skill-box {
+    border-bottom: 2px solid #e7e7e7;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    padding-bottom: 26px;
+    margin-bottom: 15px;
+}
+
+.tak-img-programing-language {
+    width: 40px;
+}
+
+.tak-progress-and-name {
+    width: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.tak-skill-name-darsad {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6px;
+}
+
+.tak-skill-darsad {
+    color: #313131;
+}
+
+.tak-skill-name {
+    font-size: 18px;
+    color: #313131;
+}
+
+.tak-progress-bar {
+    width: 100%;
+    height: 10px;
+    direction: ltr;
+    border: 1px solid #f5af31;
+    padding: 3px;
+    border-radius: 50px;
+}
+
+progress {
+    border: none;
+    overflow: hidden;
+}
+
+progress {
+    color: lightblue;
+}
+
+.tak-progress-bar::-webkit-progress-value {
+    background: #f5af31;
+    border-radius: 50px;
+}
+
+.tak-progress-bar::-moz-progress-bar {
+    background: transparent;
+    border-radius: 50px;
+}
+
+.tak-progress-bar::-webkit-progress-value {
+    background: #f5af31;
+    border-radius: 50px;
+}
+
+.tak-progress-bar::-webkit-progress-bar {
+    background: transparent;
+    border-radius: 50px;
+}
+
+.my-skills-left {
+    width: 100%;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 40px -33px #000;
+    border-radius: 20px;
+}
+
+.my-skills-left span:last-child {
+    border: none;
+}
+
+.tak-padding-darsad-left-box {
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+/*//article five*/
+/*article six*/
+.article-six {
+    width: 100%;
+}
+
+.tak-article-six-sizer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-six-inner {
+    width: 100%;
+    overflow: auto;
+    padding-bottom: 30px;
+    cursor: e-resize;
+}
+
+/* width */
+.article-six-inner::-webkit-scrollbar {
+    width: 20px;
+    height: 10px;
+}
+
+/* Track */
+.article-six-inner::-webkit-scrollbar-track {
+    border: 5px solid #f3f3f3;
+    border-radius: 10px;
+}
+
+/* Handle */
+.article-six-inner::-webkit-scrollbar-thumb {
+    background: #f5af31;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.article-six-inner::-webkit-scrollbar-thumb:hover {
+    background: #1a1a1a;
+    transition: 1s;
+}
+
+.tak-six-overflow-auto {
+    width: 1350px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.tak-box-blog {
+    width: 250px;
+    height: 300px;
+    margin-left: 20px;
+    border: 5px solid #fafafa;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.tak-box-blog-img {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+/*//article six*/
+/*article seven*/
+.article-seven {
+    width: 100%;
+}
+
+.article-seven-inner {
+    width: 100%;
+}
+
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tak-iphone-map-div {
+    position: absolute;
+    width: 60%;
+}
+
+.tak-iphone-12-png-div {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.google-map-style {
+    width: 200px;
+    height: 420px;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 50;
+    margin-right: 10px;
+}
+
+.tak-iphone-img {
+    width: 220px;
+    z-index: 100;
+    position: absolute;
+    pointer-events: none;
+}
+
+.tak-social-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.taksocial-box-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.taksocial-box-bala {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tak-social-box {
+    width: 49%;
+    height: 125px;
+    border-radius: 5px;
+}
+
+.tak-a-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 25px;
+}
+
+.whatsappp {
+    background-image: linear-gradient(135deg, #075e54 0%, #128c7e 35%, #25d366 100%);
+}
+
+.instagramm {
+    background-image: linear-gradient(135deg, #dd2a7b 0%, #8134af 35%, #5152d4 100%);
+}
+
+.gmaill {
+    background-image: linear-gradient(135deg, #bb001b 0%, #fbbc05 35%, #ea4335 100%);
+}
+
+.calll {
+    background-image: linear-gradient(135deg, #00ab08 0%, #355f85 35%, #4ded30 100%);
+}
+
+
+.tak-social-icon-img {
+    height: 100%;
+}
+
+.tak-text-name-social-icon {
+    color: #fff;
+    font-size: 22px;
+    padding: 0 20px;
+}
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+@media only screen and (max-width: 800px) {
+    .taksocial-box-bala {
+        height: 130px;
+    }
+
+    .tak-a-link {
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding: 25px 0;
+    }
+
+    .taksocial-box-title {
+        align-items: center;
+    }
+
+    .tak-social-icon-img {
+        height: 70%;
+        padding-bottom: 10px;
+    }
+
+    .tak-text-name-social-icon {
+        padding: 0;
+    }
+
+    .tak-iphone-12-png-div {
+        justify-content: center;
+    }
+
+    .google-map-style {
+        margin-right: 0px;
+    }
+
+    .article-two-right {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .article-two-left {
+        padding: 0;
+    }
+
+    .article-six-inner::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .article-six-inner {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+    }
+    /*//////////////////////////////////*/
+    #carousel div img {
+        width: 250px;
+    }
+    #carousel div.hideLeft {
+        transform: translateX(-50%);
+    }
+    #carousel div.hideLeft img {
+        width: 50px;
+    }
+    #carousel div.hideRight {
+        transform: translateX(-50%);
+    }
+    #carousel div.hideRight img {
+        width: 50px;
+    }
+    #carousel div.prev img {
+        width: 150px;
+    }
+    #carousel div.prevLeftSecond img {
+        width: 50px;
+    }
+    #carousel div.prevLeftSecond {
+        transform: translateX(-75%);
+    }
+    #carousel div.next img {
+        width: 150px;
+    }
+    #carousel div.nextRightSecond img {
+        width: 50px;
+    }
+    #carousel div.nextRightSecond {
+        transform: translateX(-25%);
+    }
+    /***************************************/
+    .tak-chart{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /******************************************/
+    .article-one-text{
+        font-size: 19px;
+    }
+    .tak-lobster{
+        font-size: 40px;
+    }
+    /********************************/
+    .tak-person-like-me-name{
+        font-size: 13px;
+    }
+
+    .tak-person-like-me-nameng{
+        font-size: 10px;
+    }
+    .tak-person-like-me-skill{
+        font-size: 10px;
+    }
+}
+
+/*//article seven*/
+/*footer*/
+
+.tak-footer-wide {
+    width: 100%;
+    padding: 50px 0;
+    background-image: url("images/Tortoise-Shell1.svg");
+}
+
+.tak-footer-inner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tak-footer-title {
+    text-align: center;
+    font-family: iranyekanbold;
+    font-size: 30px;
+    color: #fff;
+}
+
+.tak-hr-footer {
+    width: 100px;
+    height: 3px !important;
+    background-color: #F5AF31;
+    border-radius: 15px;
+    opacity: 1;
+    margin-bottom: 40px;
+}
+
+.tak-footer-button {
+    font-family: iranyekanbold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #F5AF31;
+    color: #fff;
+}
+
+/*//footer*/
+
+
+/* if backdrop support: very transparent and blurred */
+@supports ((-webkit-backdrop-filter: blur(2em)) or (backdrop-filter: blur(2em))) {
+    .tak-header-wide {
+        position: fixed;
+        width: 100%;
+        box-shadow: 0 5px 40px -33px #000;
+        background-color: unset;
+        backdrop-filter: blur(10px);
+        z-index: 900;
+        mix-blend-mode: exclusion;
+    }
+    .tak-menu-line {
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        margin-bottom: 5px;
+        border-radius: 20px;
+    }
+
+    .tak-logo-vs-name {
+        height: 100%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Lexend Tera', sans-serif;
+        font-size: 18px;
+    }
+
+    .tak-scroll-behavior {
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        backdrop-filter: blur(5px);
+        background-color: unset;
+        box-shadow: 0 0 10px -8px #000;
+        scroll-behavior: smooth;
+        z-index: 500;
+    }
+
+    .tak-menu-div{
+        width: 100%;
+        height: 100%;
+        z-index: 800;
+        top: calc(-100% + 70px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+
+    .tak-menu-a{
+        font-family: iranyekanbold;
+        font-size: 18px;
+        color: #ddd;
+        padding-bottom: 18px;
+        opacity: 0;
+    }
+
+    .tak-scroller-arrow {
+        transform: rotate(270deg);
+        width: 50%;
+        mix-blend-mode: difference;
+    }
+}

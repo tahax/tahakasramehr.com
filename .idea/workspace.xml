@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="afc85461-9ab1-4649-868c-17eb755ae06b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oFz1fJgdytxC40VLk0kRGi1CD0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value=".tak-article-two-zafo-ghovat-moraba{" />
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afc85461-9ab1-4649-868c-17eb755ae06b" name="Default Changelist" comment="" />
+      <created>1612896912403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612896912403</updated>
+      <workItem from="1612896913724" duration="6639000" />
+      <workItem from="1612938508152" duration="10985000" />
+      <workItem from="1613035267884" duration="7717000" />
+      <workItem from="1613045527404" duration="7818000" />
+      <workItem from="1613227903560" duration="13582000" />
+      <workItem from="1613291717278" duration="2356000" />
+      <workItem from="1613296878718" duration="3094000" />
+      <workItem from="1613457383809" duration="1557000" />
+      <workItem from="1613543508619" duration="26633000" />
+      <workItem from="1613671581086" duration="787000" />
+      <workItem from="1613804415550" duration="26823000" />
+      <workItem from="1613889858857" duration="33864000" />
+      <workItem from="1613975540141" duration="21869000" />
+      <workItem from="1614072007498" duration="5677000" />
+      <workItem from="1614148917481" duration="18816000" />
+      <workItem from="1614411741842" duration="16368000" />
+      <workItem from="1614499513080" duration="3288000" />
+      <workItem from="1614504520673" duration="4305000" />
+      <workItem from="1614537993106" duration="22793000" />
+      <workItem from="1615019392305" duration="4800000" />
+      <workItem from="1615114458357" duration="18196000" />
+      <workItem from="1615189127286" duration="6481000" />
+      <workItem from="1615201102373" duration="104000" />
+      <workItem from="1615276928350" duration="19874000" />
+      <workItem from="1615365793592" duration="4552000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
