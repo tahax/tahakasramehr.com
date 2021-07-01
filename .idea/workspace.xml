@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afc85461-9ab1-4649-868c-17eb755ae06b" name="Default Changelist" comment="" />
+    <list default="true" id="afc85461-9ab1-4649-868c-17eb755ae06b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1oFz1fJgdytxC40VLk0kRGi1CD0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,7 +77,16 @@
       <workItem from="1615189127286" duration="6481000" />
       <workItem from="1615201102373" duration="104000" />
       <workItem from="1615276928350" duration="19874000" />
-      <workItem from="1615365793592" duration="4552000" />
+      <workItem from="1615365793592" duration="7044000" />
+      <workItem from="1616174047406" duration="1325000" />
+      <workItem from="1616335780511" duration="745000" />
+      <workItem from="1616488780774" duration="45000" />
+      <workItem from="1616509591040" duration="39000" />
+      <workItem from="1616510283024" duration="27000" />
+      <workItem from="1616588654678" duration="898000" />
+      <workItem from="1616664114827" duration="132000" />
+      <workItem from="1616686142741" duration="1240000" />
+      <workItem from="1625061867177" duration="2332000" />
     </task>
     <servers />
   </component>

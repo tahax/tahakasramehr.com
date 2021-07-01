@@ -1,6 +1,11 @@
+
+
+/*********************************************/
 function removeEffect(){
-    // document.querySelector(".loading").style.display="none";
-    console.log(onload(event));
+    setTimeout(()=>{
+        document.querySelector(".tak-loadin-site").style.opacity="0";
+        document.querySelector(".tak-loadin-site").style.zIndex="0";
+    },2000)
 }
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
